@@ -1,0 +1,89 @@
+notes on how to make an interactive game... using JFrame, Jpanel, JButton,  
+
+
+1).
+create method and public static void main(String Args []);
+	
+	call method object new Method name();
+
+	below calling your method you need to declar all the variable and intialize all 		your objects
+	public game(){
+	 
+	
+
+
+
+
+how to use JFrame:
+
+1).create object intialize
+2). set size();
+3). set close operation
+4). getComponentpane is in the JFrame class  it is for adding objects to a component pane. it returns a container to add objects to it.
+5). set Layout funtion you want a custom layout funtion so you will put null 
+variablename.setLayout(null);
+
+see basic_window file 
+
+
+
+how to make a title screen 
+
+things we need title name and start button 
+
+1). create a Jpanel variable under conatianer variable Jpanel used to make buttons
+2). intialize it below the JFrame 
+3). setbounds method(4 parameters);
+4) setbackgroundcolor (of the button) 
+5). then below that you add it to the container so Con.add(Jpanel in this case (tittle name container);
+6). to make text use JLabel add this as variable under titlePanel variable also need to import 
+7). intialize like the others but when you add the text you add it in the paran you intialized it in
+8). set Forgroundcolor color of the text 
+9).add the tital namePanel too the container variable
+10). to Edit font size you need to make a new variaale and you need to initialize below the other variables that you created then import import java.awt.Font 
+
+11).then dosetFont() and add the variable you created 
+
+how to create a start button 
+
+1). create the variable 
+2). intialize form JPanel 
+3). setbounds(4 parameters)
+4) setbackgroundcolor
+5). add panel to container as we did the title and the text
+6). create buttom varible have to import j button 
+7) intialize start button panel = new JPanel);
+8). setbackgroundcolor 
+9). set forground color (color of text)
+10). add the panel to the container like you did the other panel
+11). then create a button import JButton 
+12).  intialize like you did the panel above variablename = new JButton();
+13). setbackground
+14). setforground 
+15). add it to the start button panel start buttonpanel.add(startbutton)
+16) create another font variable to change the font
+
+
+how to create the game screen
+1). make a new method 
+2). create another panel for the text instace of it maintextpanel = new Jpanel();
+3). setbounds 
+4). set background color 
+5). add it to the compponinent variable 
+6). create a new variable for text area.
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
