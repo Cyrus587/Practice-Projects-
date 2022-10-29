@@ -1,0 +1,52 @@
+how to make a JFrame steps
+
+1).create object 
+2). set title()
+3). setSize()
+4). setvisisble()
+3)setdefaultcloseoperation() 
+
+
+how to make a component pane()
+*variblename.getContentpane().setBackground(color.black)
+*setlayout(null); becuase we want a custom layout.
+* we need to make a componentr pane becuase when we make buttons  and panels we need to add them to is so we make a varible that gives use acess to the content pane 
+like var = variablename.getContentPane();
+
+
+how to add create an object of all the varaibles 
+ variable name = new J( some part of j frame ) ();
+
+create a panel with text 
+
+1).variable name = new J( some part of j frame ) ();
+2).setbouds method(params)
+3). setbackground
+4). to add text inside your panel do variablename - new JLable("some title")
+5). setforground font 
+6). setFont(variable you created to setfont with)
+
+
+when making a button you need to do two things 
+craete a new panel and create the actual button 
+
+create a button 
+
+instasiate
+setbackground 
+setforground 
+setfont 
+
+add the variable you made for you panels to the panels that you created 
+titleNamedPanel.add(titleNamedLabel);
+startButtonPanel.add(startbutton)
+
+then add those panels into the component variable.
+
+	
+
+
+
+
+
+
