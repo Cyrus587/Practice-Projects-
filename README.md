@@ -1,4 +1,4 @@
 # Practice-Projects
-These are a list of projects I have done to explore different concepts in Java
+This is A compelation of Files and programs that I have written to further understand the Java Language and Python language
 
 These projects are unfinished and mostly Just scratch work I have completed these through Guided Youtube Videos and other blogs. 
