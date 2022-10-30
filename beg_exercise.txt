@@ -1,0 +1,201 @@
+import <module_name> as <alias> import random as rn
+
+Example:
+
+To get a random number between 1, 20
+
+>>> import random as rn
+>>> rn.randint(1,20)
+14s
+
+
+Keywords in python
+
+False      class      finally    is         return
+None       continue   for        lambda     try
+True       def        from       nonlocal   while
+and        del        global     not        with
+as         elif       if         or         yield
+assert     else       import     pass
+break      except     in         raise
+
+Variables
+
+x,y = 45, 67
+
+>>> x,y = 45, 67
+
+>>> x
+
+45
+
+>>> y
+
+67
+
+>>>
+
+defining a dictionary
+
+while loops in python
+
+condition = 1
+while condition < 10:
+    print("condition")
+    condition += 1  # condition = condition +1
+
+while True:
+    print("doing stuff")  # this will run an infinite loop  control c
+
+how does a for loop work in python
+
+strings
+
+multiline strings in python
+
+
+''' this is a multi-line
+
+... string which continues on
+
+... 3 lines with triple single quoates'''
+
+output
+
+' this is a multiline\nstring which countinues on \n3 lines '
+
+raw_string = r 'C:\\Users\\ PC-USER'
+print(raw_string)
+output:
+
+INDEXING/SLICING
+
+Like array, we can access the first character by 0 the index,
+and last character by len – 1 index.
+
+negative index, allows us to access elements form end of list
+
+extended slicing
+string[begin:end:step]
+
+Adding strings and numbers
+
+um_apples = 10
+
+str1 = "Apples"
+
+str(num_apples) + str1
+
+output:
+
+'10Apples'
+
+wish_you = "Happy Birthday to You "
+
+wish_you * 3
+
+output:
+
+'Happy Birthday to You Happy Birthday to You Happy Birthday to You '
+
+Find() is the built in function that returns a specific string from the text and returns the index
+
+strip()
+
+Flexible variable assignment
+
+a = b = 20
+
+x,y = 45,67
+
+t2 = 1,2,3
+
+a,b,c = t2
+
+a = 10, 20, 50
+
+output =
+
+(10,20,50)
+
+
+lists in python
+
+to access a sub element of a list
+
+random_list[3][0] (this is accessing an element in a list within another list
+
+colors = ["Red","Black","Pink","White","Blue"]
+
+
+>>>colors
+
+['Red', 'Black', 'Pink', 'White', 'Blue']
+
+
+# random_list contains, an inter, float, string, a list
+
+>>>random_list = [1,1.2,"Joseph", colors]
+
+slicing works the same way in lists
+[:] will just print the whole list
+the default index to start at is 0 unless specified other wise
+the ending index is -1 unless specified other wise
+
+
+>>>colors
+
+['Red', 'Black', 'Pink', 'White', 'Blue']
+
+
+# random_list contains, an inter, float, string, a list
+
+>>>random_list = [1,1.2,"Joseph", colors]
+
+>>random_list[3:4][0]
+
+Touples
+
+imutable
+
+Notice tuple is defined without using () brackets.
+
+
+?
+>>>mixed_tuple = 1,1.0,"Hello",[10,20,30,40,50],(8,9,10)
+
+>>>mixed_tuple
+
+(1, 1.0, 'Hello', [10, 20, 30, 40, 50], (8, 9, 10))
+
+if A touple is a mutable type then you can change it for example ([1,2,3])
+
+How to change a mixed touple
+
+List_ = ([1,3,4], "name", 33)
+
+List[0][1] = 4
+would change the 3 to four in the list shown
+
+print a touple within a range of numbers
+
+List_ = tuple(range(2,10))
+
+>>> (2,3,4,5,6...10)
+
+empty touple is equal to ()
+
+negitive indexing works the same for touples
+
+
+dict_list_values = {"lang":["Python", "C++","Ruby","Java"]}
+
+print(dict_list_values)
+
+output:
+
+
+dict_list_values["lang"][0] = Python
+
+
+
